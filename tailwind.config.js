@@ -18,6 +18,10 @@ export default {
                 alabaster: "hsl(231, 100%, 99%)",
                 white: "hsl(0, 0%, 100%)",
             },
+            backgroundImage: {
+                mobile: "url('./images/bg-sidebar-mobile.svg')",
+                desktop: "url('./images/bg-sidebar-desktop.svg')",
+            },
         },
     },
     plugins: [],

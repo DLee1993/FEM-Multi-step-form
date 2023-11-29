@@ -8,4 +8,29 @@
     * {
         @apply m-0 p-0 box-border font-ubuntu;
     }
+
+    body {
+        @apply h-screen bg-lightBlue flex justify-center items-center;
+    }
+
+    #stepList {
+        @apply w-full md:h-full flex justify-center items-center md:justify-start md:items-start flex-row md:flex-col gap-x-5 md:gap-x-0 md:gap-y-5;
+    }
+    #step {
+        @apply flex justify-start items-center text-white;
+    }
+    #step span {
+        @apply border-2 border-white rounded-full w-10 h-10 flex justify-center items-center;
+    }
+    #step aside {
+        @apply hidden md:block uppercase ml-5;
+    }
+
+    #step aside p:first-child {
+        @apply text-lightGrey text-xs;
+    }
+
+    #step aside p:last-child {
+        @apply font-bold text-sm;
+    }
 }
