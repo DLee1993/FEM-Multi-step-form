@@ -20,7 +20,7 @@
         @apply flex justify-start items-center text-white;
     }
     #step span {
-        @apply border-2 border-white rounded-full w-10 h-10 flex justify-center items-center;
+        @apply rounded-full w-10 h-10 flex justify-center items-center;
     }
     #step aside {
         @apply hidden md:block uppercase ml-5;
@@ -32,5 +32,15 @@
 
     #step aside p:last-child {
         @apply font-bold text-sm;
+    }
+}
+
+@layer components {
+    .active {
+        @apply bg-lightBlue text-marineBlue border-0;
+    }
+
+    .inactive {
+        @apply border-2 border-white;
     }
 }
